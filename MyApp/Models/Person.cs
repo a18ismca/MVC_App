@@ -8,6 +8,8 @@
 
         public int Age { get; set; }
 
+        public Vehicle Vehicle { get; set; }
+
         public List<Vehicle> OwnedVehicles { get; set; } = new List<Vehicle>();
         
         public string VehiclePlate { get; set; }
